@@ -10,7 +10,9 @@ list_of_files = [
    f"src/{package_name}/mongo_crud.py", 
    "tests/__init__.py",
    "tests/unit/__init__.py",
+   "tests/unit/unit.py",
    "tests/integration/__init__.py",
+   "tests/integration/int.py",
    "init_setup.sh",
    "requirements.txt",
    "requirements-dev.txt", 
@@ -30,5 +32,3 @@ for filepath in list_of_files:
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
         with open(filepath, "w") as f:
             pass # create an empty file
-
-#its updated
