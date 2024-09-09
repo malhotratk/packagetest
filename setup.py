@@ -18,7 +18,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name="mongodb_connect",
+    name="tarun_mdb",
     version="0.1.0",
     author="Tarun",
     author_email="malhotratarun06@gmail.com",
